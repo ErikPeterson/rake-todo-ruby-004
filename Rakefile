@@ -52,9 +52,8 @@ namespace :user do
   # set through our shell. It stores things like your PATH and such. It is a
   # Hash like object.
   my_ruby_home = ENV["MY_RUBY_HOME"]
-  puts "ENV includes #{my_ruby_home}"
-
-  puts "Sending todo reminder to #{ENV["EMAIL"]}"
-end
+    puts "ENV includes #{my_ruby_home}"
+    puts "Sending todo reminder to #{ENV["EMAIL"]}"
+  end
 end
 
